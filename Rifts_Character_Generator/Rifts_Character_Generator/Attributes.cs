@@ -14,6 +14,8 @@ namespace Rifts_Character_Generator
         public string Description = "";
         public string BonusDescription = "";
         public string DisplayTxt = "";
+        ///public float bonusValue;
+        public List<Bonus> Bonuses;
 
         public Attribute()
         {
@@ -73,6 +75,43 @@ namespace Rifts_Character_Generator
                     break;
             }
         }
+
+        public void OneTimeSkillBonus(ATTRIBUTES attribute, uint value)
+        {
+            switch(attribute)
+            {
+                case ATTRIBUTES.IQ:
+                    if (value > 16)
+                    {
+                        Bonus IQBonus = new Bonus();
+                        IQBonus.bonusVal = (int)(value - 14);
+                        IQBonus.
+                    }
+                    
+
+                    break;
+                case ATTRIBUTES.ME:
+                    break;
+                case ATTRIBUTES.MA:
+                    break;
+                case ATTRIBUTES.PS:
+                    break;
+                case ATTRIBUTES.PP:
+                    break;
+                case ATTRIBUTES.PE:
+                    break;
+                case ATTRIBUTES.PB:
+                    break;
+                case ATTRIBUTES.Spd:
+                    break;
+            }
+            
+            if (val > 16)
+            {
+                retVal = val - 14;
+            }
+            return retVal;
+        }
     }
 
     public class Attributes
@@ -93,20 +132,15 @@ namespace Rifts_Character_Generator
 
         public Attributes(uint valIQ, uint valME, uint valMA, uint valPS, uint valPP, uint valPE, uint valPB, uint valSpd)
         {
-
-        }
-
-        public uint OneTimeSkillBonus()
-        {
-
-            uint val = attrIQ.Value;
-            uint retVal = 0;
-            if (val > 16)
-            {
-                retVal = val - 14;
-            }
-            return retVal;
-        }
+            attrIQ = new Attribute(Attribute.ATTRIBUTES.IQ, valIQ);
+            attrME = new Attribute(Attribute.ATTRIBUTES.ME, valME);
+            attrMA = new Attribute(Attribute.ATTRIBUTES.MA, valMA);
+            attrPS = new Attribute(Attribute.ATTRIBUTES.PS, valPS);
+            attrPP = new Attribute(Attribute.ATTRIBUTES.PP, valPP);
+            attrPE = new Attribute(Attribute.ATTRIBUTES.PE, valPE);
+            attrPB = new Attribute(Attribute.ATTRIBUTES.PB, valPB);
+            attrSpd = new Attribute(Attribute.ATTRIBUTES.Spd, valSpd);
+        }   
 
         public uint SaveVSPsyAtkandInsanityBonus()
         {

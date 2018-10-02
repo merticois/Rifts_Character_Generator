@@ -16,10 +16,13 @@ namespace Rifts_Character_Generator
             SAVE,
             SKILL
         }
-
+        public BONUS_TYPE bonusType;
         public int bonusVal;
         public Skill bonusSkill;
 
+        public Bonus(BONUS_TYPE bonusType, int BonusValue, Skill bonuSkill)
+        {
 
+        }
     }
 }

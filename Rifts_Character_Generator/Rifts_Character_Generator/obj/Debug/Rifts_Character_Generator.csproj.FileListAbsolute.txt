@@ -7,3 +7,6 @@ d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generat
 d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generator\Rifts_Character_Generator\obj\Debug\Rifts_Character_Generator.csproj.GenerateResource.Cache
 d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generator\Rifts_Character_Generator\obj\Debug\Rifts_Character_Generator.exe
 d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generator\Rifts_Character_Generator\obj\Debug\Rifts_Character_Generator.pdb
+C:\GIT\Personal_Projects\Rifts_Character_Generator\Rifts_Character_Generator\Rifts_Character_Generator\bin\Debug\Rifts_Character_Generator.exe.config
+C:\GIT\Personal_Projects\Rifts_Character_Generator\Rifts_Character_Generator\Rifts_Character_Generator\obj\Debug\Rifts_Character_Generator.exe
+C:\GIT\Personal_Projects\Rifts_Character_Generator\Rifts_Character_Generator\Rifts_Character_Generator\obj\Debug\Rifts_Character_Generator.pdb
