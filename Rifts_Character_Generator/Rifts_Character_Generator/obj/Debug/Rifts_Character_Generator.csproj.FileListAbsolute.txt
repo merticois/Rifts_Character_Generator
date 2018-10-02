@@ -1,0 +1,9 @@
+d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generator\Rifts_Character_Generator\bin\Debug\Rifts_Character_Generator.exe.config
+d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generator\Rifts_Character_Generator\bin\Debug\Rifts_Character_Generator.exe
+d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generator\Rifts_Character_Generator\bin\Debug\Rifts_Character_Generator.pdb
+d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generator\Rifts_Character_Generator\obj\Debug\Rifts_Character_Generator.csprojResolveAssemblyReference.cache
+d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generator\Rifts_Character_Generator\obj\Debug\Rifts_Character_Generator.Form1.resources
+d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generator\Rifts_Character_Generator\obj\Debug\Rifts_Character_Generator.Properties.Resources.resources
+d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generator\Rifts_Character_Generator\obj\Debug\Rifts_Character_Generator.csproj.GenerateResource.Cache
+d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generator\Rifts_Character_Generator\obj\Debug\Rifts_Character_Generator.exe
+d:\users\merticois\documents\visual studio 2015\Projects\Rifts_Character_Generator\Rifts_Character_Generator\obj\Debug\Rifts_Character_Generator.pdb
