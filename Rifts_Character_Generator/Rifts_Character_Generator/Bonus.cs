@@ -17,12 +17,44 @@ namespace Rifts_Character_Generator
             SKILL
         }
         public BONUS_TYPE bonusType;
-        public int bonusVal;
-        public Skill bonusSkill;
+        //public int bonusVal;
+        //public Skill bonusSkill;
 
-        public Bonus(BONUS_TYPE bonusType, int BonusValue, Skill bonuSkill)
+        //public Bonus(BONUS_TYPE bonusType)
+        //{
+
+        //}
+    }
+
+    public class AttributeBonus : Bonus
+    {
+        public Attribute.ATTRIBUTES AttributeType;
+        public int bonusVal
         {
+            get;
+            set;
+        }
+        public AttributeBonus(Attribute.ATTRIBUTES type, int value)
+        {
+            this.bonusType = BONUS_TYPE.ATTRIBUTE;
+            AttributeType = type;
+            bonusVal = value;
+        }
+    }
 
+    public class CombatBonus : Bonus
+    {
+        public Attribute.ATTRIBUTES AttributeType;
+        public int bonusVal
+        {
+            get;
+            set;
+        }
+        public CombatBonus(int value)
+        {
+            this.bonusType = BONUS_TYPE.ATTRIBUTE;
+            //AttributeType = type;
+            bonusVal = value;
         }
     }
 }
